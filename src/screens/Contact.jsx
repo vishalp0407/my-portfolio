@@ -22,7 +22,7 @@ const Contact = () => {
     },
     {
       type: "LinkedIn",
-      value: "linkedin.com/in/vishalprajapati04",
+      value: "www.linkedin.com/in/vishalprajapati04",
       link: "www.linkedin.com/in/vishalprajapati04",
       icon: <FaLinkedin className="text-blue-400 text-xl" />,
     },

@@ -21,10 +21,11 @@ const Hero = () => {
           Hi, I'm <span className="text-blue-400">Vishal Prajapati</span>
         </h1>
         <p className="text-lg md:text-xl mb-6">
-          I'm a passionate I am a dedicated developer with a strong passion for
-          creating modern, user-friendly web applications. Skilled in building
-          both front-end interfaces and back-end systems, I focus on delivering
-          seamless and efficient digital solutions.
+          I'm a passionate I am a dedicated{" "}
+          <span className="text-blue-400"> Web Developer</span> with a strong
+          passion for creating modern, user-friendly web applications. Skilled
+          in building both front-end interfaces and back-end systems, I focus on
+          delivering seamless and efficient digital solutions.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
           <Link

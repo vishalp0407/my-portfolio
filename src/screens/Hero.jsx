@@ -22,7 +22,7 @@ const Hero = () => {
         </h1>
         <p className="text-lg md:text-xl mb-6">
           I'm a passionate I am a dedicated{" "}
-          <span className="text-blue-400"> Web Developer</span> with a strong
+          <span className="text-blue-400"> Web Dnpeveloper</span> with a strong
           passion for creating modern, user-friendly web applications. Skilled
           in building both front-end interfaces and back-end systems, I focus on
           delivering seamless and efficient digital solutions.

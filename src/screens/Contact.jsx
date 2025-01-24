@@ -22,8 +22,8 @@ const Contact = () => {
     },
     {
       type: "LinkedIn",
-      value: "www.linkedin.com/in/vishalprajapati04",
-      link: "www.linkedin.com/in/vishalprajapati04",
+      value: "linkedin.com/in/vishalprajapati04",
+      link: "https://www.linkedin.com/in/vishalprajapati04",
       icon: <FaLinkedin className="text-blue-400 text-xl" />,
     },
   ];

@@ -11,7 +11,7 @@ const Education = () => {
       year: "2021",
     },
     {
-      degree: "HSC",
+      degree: "SSC",
       college: "R B C M P I College ",
       year: "2019",
     },

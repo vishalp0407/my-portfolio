@@ -15,7 +15,7 @@ const MobileMenu = ({ setIsOpen }) => {
       <MenuItemMobile url="#projects" label="Project" closeMenu={setIsOpen} />
       <MenuItemMobile url="#contact" label="Contact" closeMenu={setIsOpen} /> */}
 
-      <ul className="flex flex-col items-center bg-gray-800 text-white py-4 md:hidden dark:bg-white dark:text-black ">
+      <ul className="flex flex-col items-center bg-gray-800 text-white py-4 md:hidden dark:bg-white dark:text-black  ">
         <li>
           <Link
             to="home"

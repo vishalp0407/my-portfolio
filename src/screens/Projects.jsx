@@ -3,9 +3,16 @@ const Projects = () => {
     {
       title: "E-commerce Website",
       description:
-        "I developed a fully functional e-commerce website designed for seamless user experience and effcient performance. The project integrates modern technologies to handle everything from user interaction to data",
+        "Designed and developed a high-performance, feature-rich e-commerce web application that ensures a fast, secure, and efficient shopping experience. The platform offers efficient product browsing, advanced search, and category-based filtering, along with real-time updates and smooth navigation. Built with a modern UI and optimized backend,  With robust data management, a scalable architecture, and full responsiveness, the application delivers a flawless shopping experience across all devices.",
       demoLink: "project-link",
       repoLink: "https://github.com/vishalp0407/E-commerce",
+    },
+    {
+      title: "Movies-Website",
+      description:
+        "I developed a fully responsive and dynamic movies web application that offers an immersive experience for users. The platform allows seamless browsing, searching, and filtering of movies with real-time updates and smooth navigation. It features a modern UI, optimized performance, and interactive elements for an engaging experience. With efficient data handling and responsive design, the application ensures a flawless experience across all devices",
+      demoLink: "project-link",
+      repoLink: "https://github.com/vishalp0407/Movies-Application",
     },
   ];
   return (
@@ -18,7 +25,7 @@ const Projects = () => {
           My <span className="text-blue-400">Projects</span>
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-1  sm:px-28 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 sm:px-28 gap-10 ">
           {projects.map((project, index) => (
             <div
               key={index}

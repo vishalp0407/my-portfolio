@@ -3,7 +3,7 @@ const Projects = () => {
     {
       title: "E-commerce Website",
       description:
-        "Designed and developed a high-performance, feature-rich e-commerce web application that ensures a fast, secure, and efficient shopping experience. The platform offers efficient product browsing, advanced search, and category-based filtering, along with real-time updates and smooth navigation. Built with a modern UI and optimized backend,  With robust data management, a scalable architecture, and full responsiveness, the application delivers a flawless shopping experience across all devices.",
+        "Designed and developed a high-performance, feature-rich e-commerce web application that provides a fast, secure, and efficient shopping experience. The platform includes advanced product search, category-based filtering, and real-time updates, ensuring smooth navigation and easy product discovery. Built with a modern UI and optimized backend, it guarantees secure transactions, interactive user engagement, and high-speed performance. With a scalable architecture and full responsiveness, the application offers a flawless shopping experience across all devices.",
       demoLink: "project-link",
       repoLink: "https://github.com/vishalp0407/E-commerce",
     },

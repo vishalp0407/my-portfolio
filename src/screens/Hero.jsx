@@ -1,5 +1,5 @@
 import React from "react";
-import shelby from "../assets/portfolio-image.jpeg";
+import shelby from "../assets/new-portfolio-image3.jpeg";
 import { Link } from "react-scroll";
 
 const Hero = () => {
@@ -8,11 +8,12 @@ const Hero = () => {
       id="home"
       className="  h-screen bg-gray-900 text-white flex flex-col items-center justify-center px-6   dark:bg-white dark:text-black text-center md:pt-1 "
     >
-      <div className="mb-6">
+      <div className="mb-6 w-60 h-60  border-1 rounded-full">
         <img
           src={shelby}
           alt="Profile"
-          className="w-56 h-56 object-cover rounded-full shadow-lg border-1 border-blue-100"
+          className="w-full h-full object-cover object-top-[200px] rounded-full shadow-lg border-1 border-blue-100"
+          style={{ objectPosition: "center top 50%" }}
         />
       </div>
 
